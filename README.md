@@ -1,4 +1,4 @@
 # Gigi parks
 
 
-<a href="file:///C:/Users/Lilyp/OneDrive/Documents/GitHub/Dying/yay%20html/index.html">Duck Duck Goose</a>
+<a href="https://gejoewing.github.io/WD/yay%20html/">Duck Duck Goose</a>
