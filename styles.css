@@ -1,0 +1,31 @@
+nav a {
+    font-size: 24px;
+    color: black; /* Added missing semicolon */
+}
+
+nav a:hover {
+    text-decoration: none; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+} 
+
+nav li a { 
+    display: block; 
+    color: aliceblue;
+    font-size: 20px; /* Added missing semicolon */
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+footer { 
+    text-align: center;
+} /* Added missing closing brace */
