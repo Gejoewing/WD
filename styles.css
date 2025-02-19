@@ -1,31 +1,89 @@
-nav a {
-    font-size: 24px;
-    color: black; /* Added missing semicolon */
+
+@media (min-width: 320px) { 
+    nav { 
+        background-color: burlywood;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    nav ul { 
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav li a { 
+        display: block;
+        height: 30px;
+        background-color: wheat;
+        color: darkgreen;
+        font-size: 24px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 5px;
+    }
+
+    nav li a:hover {
+        background-color: white;
+    }
+
+   main {
+    padding: 20px; 
+
+   }
+   .column {
+    float: center; 
+    background-color: wheat;
+    border: 10px; 
+    border-color: darkgreen;
+
 }
 
-nav a:hover {
-    text-decoration: none; 
-}
+.row { 
+    float: center; 
+    background-color: wheat;
+    border: 10px; 
+    border-color: darkgreen;
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-} 
-
-nav li a { 
-    display: block; 
-    color: aliceblue;
-    font-size: 20px; /* Added missing semicolon */
-    font-weight: bold;
 }
 
 h1,
 h2,
-h3,
-footer { 
+h3 { 
     text-align: center;
-} /* Added missing closing brace */
+    padding: 40px;
+    color: darkgreen;
+} 
+
+
+}
+
+/* tablet styles */
+@media (min-width: 768px) { 
+    nav li { 
+        display: inline-block; 
+    }
+
+nav li a {
+    width: 125px; 
+    width: 50px; 
+    line-height: 50px;
+
+}
+
+.movie_post {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px ; 
+}
+
+
+
+
+
+}
+

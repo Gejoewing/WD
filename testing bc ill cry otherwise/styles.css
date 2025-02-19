@@ -4,14 +4,14 @@ body {
 
 #container {
     background-color: darkkhaki;
-    width: 65%;
-    margin: 20% auto;
+    width: 65%; 
+    margin: 4% auto;
     border: 80% solid black;
-    padding: 20px;
+    padding: 40px auto;
 }
 
 img {
-    display: block;
+    display: block auto;
     margin: 0 auto;
     width: 65%; 
     background-color: darkkhaki;
@@ -26,6 +26,9 @@ nav {
     border-radius: 30px;
 }
 
+p {
+    text-align: center;
+}
 nav a {
     font-size: 24px;
     color: black
@@ -76,6 +79,7 @@ img {
     float: left;
     width: 50%;
    padding: 35px;
+   background-color: darkkhaki;
 
 }
 
@@ -87,8 +91,35 @@ img {
     background-color: darkkhaki;
 }
 
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .container {
+    column-count:2
+  }
+.column {
+    background-color: wheat;
+    border: 10px solid rgb(63, 70, 27);
+}
+
+
+
+
 h1,
 h2,
 h3,
 footer { text-align: center;
 }
+
+/* my head hurts so bad */
+
