@@ -69,6 +69,18 @@ footer {
     color: black;
     text-shadow: 1px 1px 1px darkgreen;
 }
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 30%;
+}
+
+
 }
 
 /* tablet styles */
@@ -90,6 +102,16 @@ nav li a {
     width: 50%;
     border-radius: 10px;
     box-shadow: 3px 3px 3px darkgreen
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 30%;
 }
 }
 
@@ -121,6 +143,14 @@ hr {
 }
 
 
+img {
+    display: block;
+    margin: 0 auto;
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 30%;
+}
 
 
 
