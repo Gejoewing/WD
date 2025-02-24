@@ -1,0 +1,25 @@
+/* Global Styles */
+
+img { 
+    height: 10%;
+    width: 50%;
+}
+
+.Bodyone { 
+    text-align: center;
+    background-color: #C8A2C8;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Bodytwo { 
+    text-align: center;
+    text-align: center;
+    background-color: #C8A2C8;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
