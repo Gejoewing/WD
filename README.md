@@ -8,3 +8,5 @@
 <a href="Advanced CSS/index.html" target="_blank"> Advanced CSS, Smile Duck! </a>
 
 <a href="Reactive/index.html" target="_blank"> Reactive! Duck time! </a>
+
+<a href="Final/index.html" target="_blank"> Reactive! Duck time! </a>

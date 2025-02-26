@@ -1,13 +1,76 @@
 /* Global Styles */
 
+body {
+    background-color:rgb(233, 168, 103);
+}
+
+Nav {
+    background-color: #7abdcd; height: 50%;
+  border: black solid 2px;
+  text-align: center;
+
+
+}
+
+.Helpme {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+nav a {
+    color: black;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+.p {
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+h1 { 
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;}
+h2 { 
+    text-align: center;  
+    font-family:'Times New Roman', Times, serif;}
+h3 {  
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;}
+
+
+
 img { 
     height: 10%;
     width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: black solid 4px;
+    background-color: #7abdcd;
 }
+
+
+a:hover {
+    color:aquamarine;
+    font-size: 20px;
+}
+
 
 .Bodyone { 
     text-align: center;
-    background-color: #C8A2C8;
+    background-color: #7abdcd;
     color: black;
     border: 2px solid black;
     margin: 20px;
@@ -16,8 +79,17 @@ img {
 
 .Bodytwo { 
     text-align: center;
+    background-color: #7abdcd;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Bodythree { 
     text-align: center;
-    background-color: #C8A2C8;
+    text-align: center;
+    background-color: #7abdcd;
     color: black;
     border: 2px solid black;
     margin: 20px;
