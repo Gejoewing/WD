@@ -9,4 +9,4 @@
 
 <a href="Reactive/index.html" target="_blank"> Reactive! Duck time! </a>
 
-<a href="Final/index.html" target="_blank"> Reactive! Duck time! </a>
+<a href="Final/index.html" target="_blank"> Zelda Final! </a>
